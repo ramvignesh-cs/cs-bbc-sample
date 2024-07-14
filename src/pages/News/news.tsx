@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { EntrySDK } from "../../cs-sdk/entry";
 import { cms } from "../../constants/cms";
-import { HomeNewsEntry, HomeNewsItem, LiveNewsItem } from "../../utils/types";
+import { HomeNewsEntry, LiveNewsItem } from "../../utils/types";
 
 import "./news.css";
 import HomeNewsItems from "./homeNewsItems";
